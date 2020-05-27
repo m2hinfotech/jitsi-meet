@@ -221,9 +221,9 @@ UI.unbindEvents = () => {
  * Show local video stream on UI.
  * @param {JitsiTrack} track stream to show
  */
-UI.addLocalVideoStream = track => {
-    VideoLayout.changeLocalVideo(track);
-};
+// UI.addLocalVideoStream = track => {
+//     VideoLayout.changeLocalVideo(track);
+// };
 
 /**
  * Setup and show Etherpad.
@@ -314,7 +314,7 @@ UI.toggleFilmstrip = function() {
 /**
  * Toggles the visibility of the chat panel.
  */
-UI.toggleChat = () => APP.store.dispatch(toggleChat());
+// UI.toggleChat = () => APP.store.dispatch(toggleChat());
 
 /**
  * Handle new user display name.
