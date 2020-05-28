@@ -112,9 +112,9 @@ class Toolbox extends PureComponent<Props> {
                     toggledStyles = { toggledButtonStyles } />
                 <HangupButton
                     styles = { hangupButtonStyles } />
-                <VideoMuteButton
-                    styles = { buttonStyles }
-                    toggledStyles = { toggledButtonStyles } />
+//                 <VideoMuteButton
+//                     styles = { buttonStyles }
+//                     toggledStyles = { toggledButtonStyles } />
                 <OverflowMenuButton
                     styles = { buttonStylesBorderless }
                     toggledStyles = { toggledButtonStyles } />
