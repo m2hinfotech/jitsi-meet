@@ -314,7 +314,7 @@ UI.toggleFilmstrip = function() {
 /**
  * Toggles the visibility of the chat panel.
  */
-// UI.toggleChat = () => APP.store.dispatch(toggleChat());
+UI.toggleChat = () => APP.store.dispatch(toggleChat());
 
 /**
  * Handle new user display name.
